@@ -1,0 +1,21 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
+  --synthetic_train_data_dir /yanghui_root/datasets/lmdb_data/train_lmdb/CVPR2016/ /yanghui_root/datasets/lmdb_data/train_lmdb/mnt_lmdb/ \
+  --test_data_dir /yanghui_root/datasets/SVT/val_lmdb/ \
+  --batch_size 128 \
+  --workers 16 \
+  --height 64 \
+  --width 256 \
+  --epochs 6 \
+  --voc_type ALLCASES_SYMBOLS \
+  --arch ResNet_ASTER \
+  --with_lstm \
+  --logs_dir logs/plugnet \
+  --real_logs_dir /yanghui_root/plugnet \
+  --max_len 100 \
+  --lr 1 \
+  --STN_ON \
+  --tps_inputsize 32 64 \
+  --tps_outputsize 32 100 \
+  --tps_margins 0.05 0.05 \
+  --stn_activation none \
+  --num_control_points 20 \
