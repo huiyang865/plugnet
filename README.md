@@ -34,6 +34,8 @@ You can use the codes to bootstrap for your next text recognition research proje
 
 We give an example to construct your own datasets. Details please refer to `lib/tools/create_svtp_lmdb.py`.
 
+Our training and testing data refer to [aster.pytorch](https://github.com/ayumiymk/aster.pytorch).
+
 ## Citation
 
 If you find this project helpful for your research, please cite the following papers:
