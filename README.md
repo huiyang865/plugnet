@@ -6,8 +6,6 @@ PlugNet combines the pluggable super-resolution unit (PSU) to solve the low-qual
 
 ![PlugNet Overview](overview.png)
 
-The PPT representation of this paper refer to [techbeat platform](https://www.techbeat.net/talk-info?id=450).
-
 ## Train
 
 ```
