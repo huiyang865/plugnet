@@ -100,7 +100,7 @@ class RCAN(nn.Module):
         res = self.body(x)
         res += x
 
-        x = self.tail(x)
+        x = self.tail(res)
 
         return x 
 
