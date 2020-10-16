@@ -2,7 +2,7 @@
 
 This repository implements the PlugNet in pytorch. Thanks for [ayumiymk](https://github.com/ayumiymk), the base of our code is from [aster.pytorch](https://github.com/ayumiymk/aster.pytorch).
 
-PlugNet combines the pluggable super-resolution unit (PSU) to solve the low-quality text recognition from the feature-leve. The research paper can be found [here](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600154.pdf).
+PlugNet combines the pluggable super-resolution unit (PSU) to solve the low-quality text recognition from the feature-leve. The research paper can be found [here](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600154.pdf). The presentation of this paper refer to [TechBeat](https://www.techbeat.net/talk-info?id=450).
 
 ![PlugNet Overview](overview.png)
 
