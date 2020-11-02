@@ -6,6 +6,8 @@ PlugNet combines the pluggable super-resolution unit (PSU) to solve the low-qual
 
 ![PlugNet Overview](overview.png)
 
+Note: Due to business competition, we only open some relevant core code for reference and communication of relevant researchers. Pretraining models and specific training methods cannot be provided in open source at present.
+
 ## Train
 
 ```
