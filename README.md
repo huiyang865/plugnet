@@ -1,24 +1,10 @@
 # PlugNet: Degradation Aware Scene Text Recognition Supervised by a Pluggable Super-Resolution Unit
 
-This repository implements the PlugNet in pytorch. Thanks for [ayumiymk](https://github.com/ayumiymk), the base of our code is from [aster.pytorch](https://github.com/ayumiymk/aster.pytorch).
-
 PlugNet combines the pluggable super-resolution unit (PSU) to solve the low-quality text recognition from the feature-leve. The research paper can be found [here](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600154.pdf). The presentation of this paper refer to [TechBeat](https://www.techbeat.net/talk-info?id=450).
 
 ![PlugNet Overview](overview.png)
 
 Note: Due to business competition, we only open some relevant core code for reference and communication of relevant researchers. Pretraining models and specific training methods cannot be provided in open source at present.
-
-## Train
-
-```
-bash scripts/main_train.sh
-```
-
-## Test
-
-```
-bash scripts/main_test_all.sh
-```
 
 ## Reproduced results
 
@@ -30,13 +16,6 @@ bash scripts/main_test_all.sh
 
 
 You can use the codes to bootstrap for your next text recognition research project.
-
-
-## Data preparation
-
-We give an example to construct your own datasets. Details please refer to `lib/tools/create_svtp_lmdb.py`.
-
-Our training and testing data refer to [aster.pytorch](https://github.com/ayumiymk/aster.pytorch).
 
 ## Citation
 
